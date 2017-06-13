@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <header>
+      <h1>HTML Forms</h1>
+    </header>
+    <form class="my-form" action="/" method="get">
+      <label for="username">Username: </label>
+      <input id="username" type="text" name="username" value="" placeholder="input username">
+
+      <label for="password">Password: </label>
+      <input id="password" type="password" name="password" value="">
+      <br><br>
+
+      <label for="feedback">Feedback: </label>
+      <br>
+      <textarea id="feedback" name="name" rows="8" cols="80"></textarea>
+      <br>
+
+      <label for="select">Choose One: </label>
+      <select id="select" class="" name="">
+        <option value="option-1">Pick Me!</option>
+        <option value="option-2" selected>No I'm The One</option>
+        <option value="option-3">Eh I guess</option>
+      </select>
+
+      <button id="submit" type="submit" name="button">Submit</button>
+    </form>
+
+    <script src="/app.js" charset="utf-8"></script>
+  </body>
+</html>
